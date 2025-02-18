@@ -42,5 +42,6 @@ def main():
         transmit_qpsk()
         time.sleep(0.1)  # Sleep to prevent too high CPU usage
 
+# Only runs if code is executed directly from command line
 if __name__ == "__main__":
     main()
